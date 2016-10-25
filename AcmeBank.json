@@ -2,7 +2,7 @@
     "swagger": "2.0",
     "info": {
         "version": "v1",
-        "description": " This is a test  ## ![ER Diagram](http://yuml.me/diagram/class/[AcmeCustomer],[Reference_AcmeCustomer],) ## test",
+        "description": "## Entity Diagram ##\n![ER Diagram](http://yuml.me/diagram/class/[AcmeCustome],[Reference_AcmeCustomer])\n",
         "title": "AcmeBank Projection"
     },
     "schemes": [
