@@ -4,6 +4,7 @@
      "title":"AcmeBank Projection",
      "version":"v1"
   },
+  "schemes":["http"],
   "paths": {
     "/Customers": {
     },
