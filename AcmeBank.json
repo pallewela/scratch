@@ -17,6 +17,25 @@
                     }
                 }
             }
+        },
+        "/Customers({customerId})": {
+            "parameters": [
+                {
+                    "name": "customerId",
+                    "in": "path",
+                    "description": "Customer ID",
+                    "type": "string",
+                    "required": true
+                }
+            ],
+            "get": {
+                "summary": "Get a selected Customer",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
         }
     }
 }
