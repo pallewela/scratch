@@ -7,8 +7,19 @@
   "schemes":["http"],
   "paths": {
     "/Customers": {
+      "get": {
+        "summary": "Get all Customers"
+        "responses": {
+          "200" : {}
+        }
     },
     "/Customers(CustomerId={custId})": {
+      "get": {
+        "summary": "Get Customer by Id",
+        "responses": {
+          "200" : {}
+        }
+      },
     }
   }
 }
