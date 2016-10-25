@@ -5,11 +5,23 @@
         "title": "AcmeBank Projection"
     },
     "schemes": [
-        "https"
+        "http"
     ],
+    "host": "cmbpde1373.corpnet.ifsworld.com:58080",
+    "basePath": "/ifsapp/AcmeBank.svc",
+    "securityDefinitions": {
+        "basicAuth": {
+            "type": "basic"
+        }
+    },
     "paths": {
         "/Customers": {
             "get": {
+                "security": [
+                    {
+                        "basicAuth": []
+                    }
+                ],
                 "summary": "Get all Customers",
                 "responses": {
                     "200": {
@@ -29,6 +41,11 @@
                 }
             ],
             "get": {
+                "security": [
+                    {
+                        "basicAuth": []
+                    }
+                ],
                 "summary": "Get a selected Customer",
                 "responses": {
                     "200": {
