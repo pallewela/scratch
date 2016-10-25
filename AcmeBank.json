@@ -1,0 +1,13 @@
+{
+  "swagger":"2.0",
+  "info": {
+     "title":"AcmeBank Projection",
+     "version":"v1"
+  },
+  "paths": {
+    "/Customers": {
+    },
+    "/Customers(CustomerId={custId})": {
+    }
+  }
+}
