@@ -8,7 +8,7 @@
   "paths": {
     "/Customers": {
       "get": {
-        "summary": "Get all Customers"
+        "summary": "Get all Customers",
         "responses": {
           "200" : {}
         }
